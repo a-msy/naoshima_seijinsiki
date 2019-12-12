@@ -16,7 +16,7 @@
 <!-- Site Name -->
 <!-- Static navbar -->
 <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">すごい良さげなサイトタイトル</a>
+    <a class="navbar-brand" href="#"><h1>すごい良さげなサイトタイトル</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,12 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto text_align_center">
+        </ul>
+        <ul class="navbar-nav text_align_center">
             <li class="nav-item active m-3">
                 <a class="nav-link" href="#">
                     <i class="fa fa-home"></i>
-                    トップ
+                    <h3>トップ</h3>
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
@@ -36,39 +38,18 @@
                     <i class="fa fa-envelope-o">
                         <span class="badge badge-danger">7+</span>
                     </i>
-                    リンク１
+                    <h3>リンク１</h3>
                 </a>
             </li>
-            <li class="nav-item dropdown m-3">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-envelope-o">
-                        <span class="badge badge-primary">7+</span>
-                    </i>
-                    ドロップダウンリンク
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">すごいことができるアクション</a>
-                    <a class="dropdown-item" href="#">なんかやばいアクション</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">しゅっとしたアクション</a>
-                </div>
-            </li>
-        </ul>
-        <ul class="navbar-nav text_align_center">
             <li class="nav-item m-3">
                 <a class="nav-link" href="#">
                     <i class="fa fa-bell">
                         <span class="badge badge-info">7+</span>
                     </i>
-                    きれいな通知
+                    <h3>きれいな通知</h3>
                 </a>
             </li>
         </ul>
-        <form class="m-3">
-            <input class="form-control" type="text" placeholder="大変に良い言葉" aria-label="Search">
-        </form>
-        <button class="btn btn-outline-success" type="submit">検索</button>
     </div>
 </nav>
 
@@ -171,6 +152,12 @@
 </div>
 
 <h1>なんかやばいグリッドたち</h1>
+<?php
+for ($i = 1; $i <= 10; $i++) {
+    echo "<h1>" . $i . "</h1>";
+}
+?>
+
 <h1>やばめなフッター</h1>
 <!---->
 <!--javascript-->
@@ -187,3 +174,4 @@
 <script src="js/index.js"></script>
 </body>
 </html>
+?>
