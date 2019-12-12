@@ -126,9 +126,13 @@
     position:relative;
     max-width: 100%;
     height: auto;
-    min-height: 70vh;
+    min-height: 80vh;
     background-color: white;
     overflow: hidden;
+}
+.box-top img{
+    height: 100%;
+    right:0;
 }
 .top_picture{
     position: absolute;
@@ -138,11 +142,9 @@
 }
 .top_text{
     position: absolute;
-    top:30%;
-    bottom: 30%;
+    bottom: 0%;
     left:0%;
     padding-left: 10%;
-    padding-top: 1%;
     width: 100%;
     color:white;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
@@ -153,4 +155,250 @@
 }
 .top_text h1, h2{
     font-size: 30pt;
+}
+
+.yabai_glid{
+    position: relative;
+}
+.fa{
+    font-size: 50px !important;
+}
+
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    -webkit-box-sizing: border-box;
+}
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.header-left,
+.header-right{
+    position: relative;
+    color: black;
+    float: left;
+}
+.header-left{
+    width: 30%;
+}
+.header-right label{
+    position: absolute;
+    top: -3.7em;
+    right: 0;
+    cursor: pointer;
+}
+.header-right span{
+    position: relative;
+    width: 2em;
+    height: 2em;
+    background: rgba(0,0,0,.5);
+    -webkit-transition: all .3s ease;
+}
+.header-right span:hover{
+    background: rgba(0,0,0,.8);
+}
+.header-right span:before{
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: .5em;
+    top: 15%;
+    left: 0;
+    background: white;
+}
+.header-right span:after{
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: .5em;
+    bottom: 15%;
+    left: 0;
+    background: white;
+}
+
+.header-right{
+    width: 70%;
+    text-align: right;
+}
+#open{
+    display: none;
+}
+h1{
+    font-weight: 300;
+    line-height: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav>a{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0 2em;
+    -webkit-transition: all .3s ease;
+    text-decoration: none;
+    color:black;
+}
+nav>a:hover{
+    background: rgba(255,255,255,.9);
+    color: darkseagreen;
+    text-decoration: none;
+}
+.hidden-desktop{
+    display: none;
+}
+.section-left,
+.section-right{
+    float: left;
+}
+.section-left{
+    width: 70%;
+    padding: 3em 0;
+}
+.section-right{
+    width: 30%;
+}
+.section-title,
+.section-tagline{
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all .4s ease;
+}
+.section-title{
+    font-size: 4em;
+    margin-bottom: .3em;
+    text-shadow: 0 3px 0px black,
+    0 4px 0px rgba(150,150,150,.5);
+}
+.section-tagline{
+    font-size: 1em;
+}
+.learn-more{
+    display: table;
+    margin: 3em auto 0;
+    padding: 1em 6em;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.8);
+    background: #EAAF00;
+    background-image: -webkit-linear-gradient(#EAAF00 0%, #D78100 100%);
+    font-size: 1.2em;
+}
+.learn-more:hover{
+    background: #EAAF00;
+}
+.learn-more:active{
+    box-shadow: inset 0 2px 0 rgba(0,0,0,.8);
+}
+
+/* Landscape phones and down */
+@media screen and (min-width: 0px) {
+    .container{
+        width: 90%;
+    }
+    nav{
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all .3s ease;
+    }
+    input[type="checkbox"]:checked + nav{
+        height: 205px;
+    }
+    nav>a{
+        padding: 0 1em;
+        display: block;
+        border-bottom: solid 1px rgba(255,255,255,.1);
+    }
+    h1{
+        padding: .5em 0;
+    }
+    .header-left,
+    .header-right{
+        width: 100%;
+    }
+    .section-left,
+    .section-right{
+        width: 100%;
+    }
+    .section-left{
+        text-align: center;
+        padding: 1em 0;
+    }
+    .section-right{
+        text-align: center;
+        padding: 1em 0 2em;
+    }
+    .section-title{
+        font-size: 2.4em;
+        margin-bottom: 0;
+    }
+    .section-tagline{
+        font-size: 1em;
+    }
+    .learn-more{
+        display: table;
+        margin: 0 auto;
+    }
+    .hidden-desktop{
+        display: block;
+    }
+}
+/*header*/
+
+#site-content {
+    position: relative;
+    z-index: 1;
+    background: white;
+    -webkit-box-shadow: #000 0 7px 35px 0;
+    -moz-box-shadow: #000 0 7px 35px 0;
+    box-shadow: #000 0 7px 35px 0;
+
+}
+
+#site-footer {
+    padding: 25px 0;
+    font-size: 85%;
+    background-color: #2A2A2A;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#site-footer {
+    /* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
+    /* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
+    background-size: cover;
+    background-position: center;
+    background-color:grey;
 }
