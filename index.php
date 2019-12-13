@@ -8,6 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/slider.css"/>
 </head>
@@ -30,7 +31,7 @@
                     <a href="#">すごいリンク</a>
                     <a href="#">なんかみれる</a>
                     <a href="#">ここもみれる</a>
-                    <a href="#site-footer">製作者</a>
+                    <a href="#site-footer">そこも見れる</a>
                 </nav>
             </div>
         </div>
@@ -39,7 +40,6 @@
     <!--トップ画像-->
     <div class="box-top">
         <!-- // 画面フルサイズの要素 // 中央寄せされるコンテンツ -->
-        <img class="top_picture" src="https://goo.gl/gU9Bbr">
         <div class="top_text">
             <h1>令和2年</h1>
             <h1>2020年</h1>
@@ -137,38 +137,38 @@
         <section class="strips">
             <article class="strips__strip">
                 <div class="strip__content">
-                    <h1 class="strip__title" data-name="Lorem">Awesome</h1>
+                    <h1 class="strip__title" data-name="Lorem">あれ</h1>
                     <div class="strip__inner-text">
-                        <h2>Ettrics</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt
-                            consectetur,
-                            quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta
-                            omnis quibusdam facilis, illo voluptates odit!</p>
+                        <h2>もうそれはそれはすごいタイトル</h2>
+                        <p>すごいし，すごくて，やっぱりすごいテキスト．すごいし，すごくて，やっぱりすごいテキスト．
+                            すごいし，すごくて，やっぱりすごいテキスト．すごいし，すごくて，やっぱりすごいテキスト．
+                            すごいし，すごくて，やっぱりすごいテキスト．すごいし，すごくて，やっぱりすごいテキスト．
+                            すごいし，すごくて，やっぱりすごいテキスト．</p>
                     </div>
 
                 </div>
             </article>
             <article class="strips__strip">
                 <div class="strip__content">
-                    <h1 class="strip__title" data-name="Ipsum">Words</h1>
+                    <h1 class="strip__title" data-name="Ipsum">これ</h1>
                     <div class="strip__inner-text">
-                        <h2>Ettrics</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt
-                            consectetur,
-                            quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta
-                            omnis quibusdam facilis, illo voluptates odit!</p>
+                        <h2>ごっつい題名</h2>
+                        <p>源氏と平家が戦うことすら諦める力のあるテキスト．源氏と平家が戦うことすら諦める力のあるテキスト．
+                            源氏と平家が戦うことすら諦める力のあるテキスト．源氏と平家が戦うことすら諦める力のあるテキスト．
+                            源氏と平家が戦うことすら諦める力のあるテキスト．源氏と平家が戦うことすら諦める力のあるテキスト．
+                            源氏と平家が戦うことすら諦める力のあるテキスト．</p>
                     </div>
                 </div>
             </article>
             <article class="strips__strip">
                 <div class="strip__content">
-                    <h1 class="strip__title" data-name="Dolor">Go</h1>
+                    <h1 class="strip__title" data-name="Dolor">それ</h1>
                     <div class="strip__inner-text">
-                        <h2>Ettrics</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt
-                            consectetur,
-                            quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta
-                            omnis quibusdam facilis, illo voluptates odit!</p>
+                        <h2>もんげ～タイトル</h2>
+                        <p>でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．
+                            でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．
+                            でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．
+                            でぇ～れぇ～ことが書かれているテキスト．桃太郎も逃げるほど．</p>
                     </div>
                 </div>
             </article>

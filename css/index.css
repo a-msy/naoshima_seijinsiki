@@ -1,4 +1,7 @@
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+    font-family: 'Kosugi Maru', sans-serif;
+}
 .navbar{
     min-height:70px;
 }
@@ -123,16 +126,18 @@
     width:100%;
 }
 .box-top {
+    border-top: medium solid grey;
     position:relative;
     max-width: 100%;
     height: auto;
-    min-height: 80vh;
+    min-height: 90vh;
     background-color: white;
+    background-image: url("../img/S__65372197.jpg");
     overflow: hidden;
 }
 .box-top img{
-    height: 100%;
-    right:0;
+    max-width: 100%;
+    height: auto;
 }
 .top_picture{
     position: absolute;
@@ -194,7 +199,7 @@
 }
 header{
     width: 100%;
-    height: auto;
+    height: 100%;
     background: white;
 }
 .header-left,
@@ -244,6 +249,7 @@ header{
 .header-right{
     width: 70%;
     text-align: right;
+    height: 100%;
 }
 #open{
     display: none;
@@ -259,8 +265,8 @@ a{
 nav>a{
     position: relative;
     display: inline-block;
-    font-size: 13px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 60px;
     padding: 0 2em;
     -webkit-transition: all .3s ease;
     text-decoration: none;
@@ -331,7 +337,7 @@ nav>a:hover{
         -webkit-transition: all .3s ease;
     }
     input[type="checkbox"]:checked + nav{
-        height: 205px;
+        height: 340px;
     }
     nav>a{
         padding: 0 1em;
