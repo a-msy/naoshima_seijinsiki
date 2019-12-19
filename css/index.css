@@ -408,3 +408,8 @@ nav>a:hover{
     background-position: center;
     background-color:grey;
 }
+
+#site-footer h1{
+    text-align: right;
+    padding-right: 10px;
+}

@@ -27,7 +27,7 @@
                 </label>
                 <input type="checkbox" name="" id="open">
                 <nav>
-                    <a href="#site-content">Home</a>
+                    <a href="#site-content">やばいリンク</a>
                     <a href="#">すごいリンク</a>
                     <a href="#">なんかみれる</a>
                     <a href="#">ここもみれる</a>
